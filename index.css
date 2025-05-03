@@ -1,0 +1,71 @@
+body {
+    background: wheat;
+}
+p{
+    font-size:3em;
+    text-align: center;
+}
+
+#calculator_background{
+    height:500px;
+    width:350px;
+    background: gray;
+    border:solid black 4px;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;;
+    
+}
+#container{
+  
+    border:solid yellow 4px;
+}
+
+button {
+    width:50px;
+    height:50px;
+    font-size: larger;
+}
+
+#buttons{
+   width:300px;
+    border:solid pink 4px;
+}
+
+#first3{
+    display:flex;
+    border:solid blue 3px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#fourto6{
+    display:flex;
+    border:solid blue 4px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#sevento9{
+    display:flex;
+    border:solid blue 4px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#zero{
+    display:flex;
+    justify-content: center;
+    
+}
+#formulabuttons{
+    margin:auto;
+    display:flex;
+    justify-content: space-around;
+    border:solid brown 4px;
+    
+}
+#equals{
+    display:flex;
+    justify-content: center;
+    border:solid green 4px;
+}

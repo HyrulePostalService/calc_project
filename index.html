@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Calculator Project</title>
+</head>
+<!-- Create the body of the calculator -->
+<body>
+
+        <div id="calculator_background">
+            <div id="container">
+            <div id="buttons">
+            <div id="first3">
+            <button type="button" id="one" onclick="displayNums(this)">1</button>
+            <button type="button" id="two" onclick="displayNums(this)">2</button>
+            <button type="button" onclick="displayNums(this)">3</button>
+            </div>
+            <div id="fourto6">
+            <button type="button" onclick="displayNums(this)">4</button>
+            <button type="button" onclick="displayNums(this)">5</button>
+            <button type="button" onclick="displayNums(this)">6</button>
+            </div>
+            <div id="sevento9">
+            <button type="button" onclick="displayNums(this)">7</button>
+            <button type="button" onclick="displayNums(this)">8</button>
+            <button type="button" onclick="displayNums(this)">9</button>
+            </div>
+            <div id="zero">
+            <button type="button"onclick="displayNums(this)">0</button>
+            </div>
+            </div>
+   
+
+        <div id="formulabuttons">
+            <button type="button" id="add">+</button>
+            <button type="button" id="subtract">-</button>
+            <button type="button" id="multiply">*</button>
+            <button type="button" id="divide">/</button>
+        </div>
+        <div id="equals">
+            <button type="button" style="width:130px; height:60px;" id="equal">=</button>
+        </div>
+        
+    </div>
+    <button type="button" id="clear"style='width:80px; margin:auto;'>Clear</button>
+</div>
+
+    <script src="index.js">
+
+    </script>
+</body>
+</html>
