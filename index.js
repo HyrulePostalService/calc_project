@@ -16,10 +16,9 @@ numTwo = '';
 //display the inputs
 
 function displayNums(button){
-    if (justCalculated){
+    if (justCalculated && operand === ''){
         numOne = '';
         numTwo = '';
-        operand = '';
         p.textContent = '';
         justCalculated = false;
     }
@@ -91,7 +90,7 @@ function calculateSum(){
     justCalculated = true;
 }
   
-//need to upload
+
 
 document.getElementById('clear').addEventListener('click', function(){
     numOne = '';
