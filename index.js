@@ -91,7 +91,7 @@ function calculateSum(){
     justCalculated = true;
 }
   
-
+//need to upload
 
 document.getElementById('clear').addEventListener('click', function(){
     numOne = '';
