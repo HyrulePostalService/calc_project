@@ -18,10 +18,7 @@ p{
     flex-wrap: wrap;;
     
 }
-#container{
-  
-    border:solid yellow 4px;
-}
+
 
 button {
     width:50px;
@@ -31,41 +28,43 @@ button {
 
 #buttons{
    width:300px;
-    border:solid pink 4px;
+   
 }
 
 #first3{
     display:flex;
-    border:solid blue 3px;
+    padding:10px;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 #fourto6{
     display:flex;
-    border:solid blue 4px;
+   padding:10px;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 #sevento9{
     display:flex;
-    border:solid blue 4px;
+    padding:10px;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 #zero{
     display:flex;
     justify-content: center;
+    padding:10px;
     
 }
 #formulabuttons{
     margin:auto;
     display:flex;
     justify-content: space-around;
-    border:solid brown 4px;
+  
     
 }
 #equals{
     display:flex;
     justify-content: center;
-    border:solid green 4px;
+    padding:12px;
+   
 }
